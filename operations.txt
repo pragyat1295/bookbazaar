@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+SQLAlchemy
+psycopg2-binary
+pydantic
+python-jose
+passlib[bcrypt]
+
+
+
+To install all run pip install -r operations.txt
+Remove these 2 lines before running the command
+
+- uvicorn main:app --reload command to run the app
+- ipython is the environment to write the python commands
+- python -m venv venv - First command to create the virtual evnironment for python in this folder
+- source venv/Scripts/activate - Script to activate the virtual environment
